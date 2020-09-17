@@ -42,7 +42,7 @@ jobs:
           at: my_workspace
       - run: |
           echo "Deploying!!!"
-          cat my_workspace_echo-output
+          cat my_workspace/echo-output
 
 workflows:
   version: 2
